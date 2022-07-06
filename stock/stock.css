@@ -1,0 +1,267 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: white;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+i{
+    cursor: pointer;
+}
+
+.nav-container {
+    overflow: hidden;
+    background-color: rgb(1, 1, 100);
+    width: 250px;
+    height: 100%;
+    display: flex;
+    font-weight: 300;
+    font-size: 18px;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.navexpand{
+    width: 50px;
+}
+
+.functions {
+    color: white;
+    height: 80%;
+}
+
+.functions ul li {
+    height: 11%;
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.functions ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+
+.font {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.row i {
+    color: white;
+    margin: 10px 10px;
+}
+
+.row span {
+    padding: 0px 10px;
+}
+
+.nav-heading {
+    display: flex;
+    align-items: center;
+    height: 10%;
+}
+
+.nav-heading i {
+    color: white;
+    margin: 0px 10px;
+}
+
+.nav-heading span {
+    font-weight: 700;
+    margin: 0px 10px;
+    font-size: 30px;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    height: 10%;
+}
+
+.logout i {
+    color: white;
+    margin: 0px 10px;
+}
+
+.logout span {
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.functions li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.navTop{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    width: 100%;
+    color: black;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+.Dashboard{
+    display: flex;
+    align-items: center;
+}
+.Dashboard i{
+    font-size: 30px;
+}
+.Dashboard span{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 40px;
+}
+.searchSpace{
+    border-radius: 10px;
+    width: 50%;
+    /* display: flex; */
+    align-items: center;
+}
+.searchSpace input{
+    margin: 10px 0;
+    padding: 10px 20px;
+    padding-right: 70px;
+    font-size: 17px;
+    line-height: 50px;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background-color: rgb(232, 242, 253);
+    border-radius: 10px;
+    border: none;
+}
+.name div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    display: flex;
+    width: 240px;
+    padding: 3px 10px;
+    align-items: center;
+}
+.name span{
+    font-weight: 600;
+    margin-left: 10px;
+}
+.name img{
+    border-radius: 5px ;
+    width: 34px;
+    height: 43px;
+}
+.name i{
+    margin-left: 30px;
+    width: 20px;
+}
+.right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.stockInfo{
+    flex-wrap: wrap;
+    padding: 20px 10px ;
+    display: flex;
+    color: black;
+    justify-content: space-around;
+}
+.up div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.up div span,.up i{
+    font-size: 40px;
+    font-weight: 600;
+}
+.number{
+    font-size: 65px !important;
+    font-weight: 700 !important;
+}
+.box{
+    padding: 20px 20px;
+    width: 300px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.up{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.down{
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.down i{
+    background-color: aquamarine;
+    color: white;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.last{
+    margin-top: 15px;
+    height: 55%;
+    color: black;
+    display: flex;
+    padding: 0px 10px;
+}
+.sales span{
+    font-size: 25px;
+    font-weight: 700;
+}
+.sales{
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+    display: flex;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    flex-direction: column;
+}
+th,td{
+    padding: 5px;
+    text-align: left;
+    font-size: 17px;
+}
+.product div{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 100%;
+    /* padding: 20px; */
+    /* border: 7px solid black; */
+}
+
+.product{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid green;
+    /* background-color: black; */
+    /* padding: 2px; */
+    border-radius: 100%;
+}
